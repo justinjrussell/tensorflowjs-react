@@ -1,0 +1,19 @@
+.wrapper {
+  display: inline-flex;
+  justify-content: flex-end;
+  border: 10px solid #ef6c00be;
+  transition: border-color .2s ease-in;
+}
+
+.wrapper:hover {
+  border: 10px solid #ef6c00;
+  transition: border-color .2s ease-in;
+}
+
+canvas {
+  cursor: crosshair;
+}
+
+.row {
+  margin: 10vh 5vw;
+}
