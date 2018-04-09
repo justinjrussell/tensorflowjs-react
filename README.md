@@ -9,5 +9,5 @@ This demo imports an MNIST ConvNet trained in Keras Python, then makes predictio
 ## Use a Different Keras Model
 
 ```
-tensorflowjs_converter --input_format keras keras/yourWeights.h5 src/assets
+tensorflowjs_converter --input_format keras keras/yourWeights.h5 public/models
 ```
